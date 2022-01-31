@@ -5,8 +5,6 @@ import datetime
 access = "PW27sOA7gatKxbsAJwFH03pkXcFVxwQD99PgQkEn"
 secret = "HrctvRT5xPynlQn6WoIYvEAGjMLlBTDf9whBCe7F"
 
-ticker=KRW-BCT
-k=0.5
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
